@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url("backgraund.jpg");
+    background-image: url("image.jpg");
 }
 header{
     max-width: 1100px;
@@ -38,8 +38,9 @@ header a{
 }
 header a:hover{
     border: 2px solid white;
-    background-color:rgba(10, 15, 20,0.5);
+    background-color:rgba(47, 73, 99, 0.5);
     border-radius: 10px;
+    border-collapse: collapse;
     
 }
 main{
@@ -49,9 +50,10 @@ main{
 }
 #agac{
     width: 600px;
+    height: 560px;
 }
 main div{
-    background-color:rgba(0, 0,0,0.5);
+    background-color:rgba(0, 0,0,0.2);
 
 }
 
@@ -64,4 +66,6 @@ main div p{
     font-size: 25px;
     color: white;
     text-align: center;
+    margin-top: 40px;
+    line-height: 50px;
 }
