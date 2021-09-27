@@ -22,10 +22,7 @@ header{
     display:flex;
 
 }
-#baslık{
-   
 
-}
 .head1{
     color:rgb(9, 40, 65);
     font-size: 25px;
@@ -107,4 +104,26 @@ main div p{
     text-align: center;
     margin-top: 40px;
     line-height: 50px;
+}
+@media screen and (max-width: 700px){
+    header{
+        display: block;
+    }
+    .ana{
+        max-height: fit-content;
+    }
+    .head1 {
+        font-size: 40px;
+        text-align: center;
+
+    }
+    .head2 li{
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+    main{
+        margin-top: 100px;
+    }
+
+    
 }
