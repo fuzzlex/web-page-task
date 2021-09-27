@@ -6,6 +6,14 @@
 
 body{
     background-image: url("image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.ana{
+    margin: auto;
+    max-height: 100px;
 }
 header{
     max-width: 1100px;
@@ -15,39 +23,54 @@ header{
 
 }
 #baslık{
-    background-color:rgba(90, 175, 11, 0.5);
+   
 
 }
 .head1{
-    color: white;
+    color:rgb(9, 40, 65);
+    font-size: 25px;
+    font-family: "Righteous";
+    letter-spacing: 5px;
+    border-bottom:5px double rgb(9, 40, 65);
+}
+span{
+    color:rgb(49, 2, 2);
 
+}
+.head1 h1{
+    padding-left: 30px;
 }
 .head2{
     margin: auto;
-    margin-right: 0px;
+    margin-right: -70px;
+    background-color: rgba(209, 144, 24, 0.2);
+    padding: 5px 0px;
+ 
+    
     
 }
 
 header div ul li{
     display: inline;
-    padding: 0px 40px;
-    float: right;
-    clear: both;
+    padding: 0px 30px;
+  
   
 }
 header a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     list-style-type: none;
     font-size: 22px;
+    font-family: "Righteous";
+    font-weight: bolder;
     
   
 }
 header a:hover{
     border: 2px solid white;
-    background-color:rgba(47, 73, 99, 0.5);
+    background-color:rgb(9, 40, 65);
     border-radius: 10px;
-    padding: 0px 3px;
+    padding: 0px 5px;
     transition: 0.5s;
     
 }
@@ -55,10 +78,18 @@ main{
     margin: auto;
     display: flex;
     margin-top: 100px;
+    
 }
-#agac{
+.agac{
+    border: 2px solid white;
+  
+}
+.agac img{
     width: 600px;
     height: 560px;
+   
+    
+    
 }
 main div{
     background-color:rgba(0, 0,0,0.2);
