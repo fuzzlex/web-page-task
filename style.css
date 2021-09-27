@@ -13,15 +13,12 @@ body{
 }
 .ana{
     margin: auto;
-    max-height: 100px;
-}
-header{
     max-width: 1100px;
-    margin: auto ;
     padding-top: 50px;
     display:flex;
-
 }
+
+
 
 .head1{
     color:rgb(9, 40, 65);
@@ -47,13 +44,13 @@ span{
     
 }
 
-header div ul li{
+.head2 li{
     display: inline;
     padding: 0px 30px;
   
   
 }
-header a{
+.head2 a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     list-style-type: none;
@@ -63,7 +60,7 @@ header a{
     
   
 }
-header a:hover{
+.head2 a:hover{
     border: 2px solid white;
     background-color:rgb(9, 40, 65);
     border-radius: 10px;
@@ -71,46 +68,12 @@ header a:hover{
     transition: 0.5s;
     
 }
-main{
-    margin: auto;
-    display: flex;
-    margin-top: 100px;
-    
-}
-.agac{
-    border: 2px solid white;
-  
-}
-.agac img{
-    width: 600px;
-    height: 560px;
-   
-    
-    
-}
-main div{
-    background-color:rgba(0, 0,0,0.2);
 
-}
 
-main div h2{
-    font-size: 50px;
-    color: white;
-    text-align: center;
-}
-main div p{
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    margin-top: 40px;
-    line-height: 50px;
-}
-@media screen and (max-width: 700px){
-    header{
-        display: block;
-    }
+@media screen and (max-width: 600px){
     .ana{
         max-height: fit-content;
+        display: block;
     }
     .head1 {
         font-size: 40px;
